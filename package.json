@@ -1,0 +1,15 @@
+{
+  "name": "cassandra",
+  "version": "1.0.0",
+  "description": "```bash $ docker run --name cassandra-node-0 --p 7000:7000 -p 7001:7001 -p 9042:9042 -p 9160:9160 -e CASSANDRA_CLUSTER_NAME=MyCluster -e CASSANDRA_ENDPOINT_SNITCH=GossipingPropertyFileSnitch -e CASSANDRA_DC=datacenter1 -d cassandra ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cassandra-driver": "^4.6.3"
+  }
+}
