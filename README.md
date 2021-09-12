@@ -66,6 +66,7 @@ $ docker run -it -e CQLSH_HOST=$(docker inspect --format='{{ .NetworkSettings.IP
   partition key(row key): email
 
   cluster key: name
+  
   `primary key`는 하나의 partition key와 0개 이상의 cluster key 정의
 
   `partition key` 해싱하여 저장될 노드 선택하여 row 저장, 각 노드별 토큰 범위가 할당되어 있음
